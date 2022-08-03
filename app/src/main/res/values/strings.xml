@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">Algovedix</string>
+    <string name="preference_file_name">Algovedix Preference</string>
+    <string name="vata">Vata</string>
+    <string name="pitta">Pitta</string>
+    <string name="cough">Kapha</string>
+    <string name="log_in">LOG IN</string>
+</resources>
