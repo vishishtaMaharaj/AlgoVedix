@@ -4,7 +4,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="#006600"
+    android:background="#ffffff"
     tools:context=".ResultsPage">
 
     <TextView
@@ -34,49 +34,84 @@
         app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintVertical_bias="0.161" />
 
+    <ImageView
+        android:layout_width="120dp"
+        android:layout_height="80dp"
+        android:src="@drawable/pittalogo"
+        app:layout_constraintBottom_toTopOf="@+id/textView7"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.742"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView6"
+        app:layout_constraintVertical_bias="1.0" />
+
     <TextView
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
+        android:id="@+id/textView6"
+        android:layout_width="120dp"
+        android:layout_height="70dp"
         android:text="VATA"
         android:textColor="@color/black"
         android:textSize="40sp"
         android:textStyle="bold"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.299"
+        app:layout_constraintHorizontal_bias="0.411"
         app:layout_constraintStart_toEndOf="@+id/vata_bar"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.219" />
+        app:layout_constraintVertical_bias="0.263" />
 
 
     <TextView
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
+        android:id="@+id/textView7"
+        android:layout_width="120dp"
+        android:layout_height="70dp"
         android:text="PITTA"
         android:textColor="@color/black"
         android:textSize="40sp"
         android:textStyle="bold"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.33"
+        app:layout_constraintHorizontal_bias="0.411"
         app:layout_constraintStart_toEndOf="@+id/pitta_bar"
-        app:layout_constraintTop_toTopOf="parent" />
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.561" />
+
+    <ImageView
+        android:layout_width="120dp"
+        android:layout_height="80dp"
+        android:src="@drawable/vatalogo"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.742"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView"
+        app:layout_constraintVertical_bias="0.032" />
+
+    <ImageView
+        android:layout_width="140dp"
+        android:layout_height="80dp"
+        android:src="@drawable/kaphalogo"
+        app:layout_constraintBottom_toTopOf="@+id/textView4"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.742"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView7"
+        app:layout_constraintVertical_bias="1.0" />
 
     <TextView
         android:id="@+id/textView4"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
+        android:layout_width="140dp"
+        android:layout_height="70dp"
         android:text="KAPHA"
         android:textColor="@color/black"
         android:textSize="40sp"
         android:textStyle="bold"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.401"
+        app:layout_constraintHorizontal_bias="0.395"
         app:layout_constraintStart_toEndOf="@+id/cough_bar"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.783" />
-
+        app:layout_constraintVertical_bias="0.86" />
 
     <TextView
         android:id="@+id/textView1"
@@ -139,7 +174,7 @@
         android:layout_height="wrap_content"
         android:text="0%"
         android:textSize="30sp"
-        android:textColor="@color/white"
+        android:textColor="@color/black"
         android:textStyle="bold"
         app:layout_constraintBottom_toBottomOf="@+id/cough_bar"
         app:layout_constraintEnd_toEndOf="@+id/cough_bar"
@@ -148,25 +183,30 @@
 
     <Button
         android:id="@+id/rectangle_3"
-        android:layout_width="369dp"
-        android:layout_height="67dp"
-        android:layout_marginBottom="7dp"
+        android:layout_width="271dp"
+        android:layout_height="56dp"
         android:layout_alignParentLeft="true"
         android:layout_alignParentTop="true"
         android:layout_centerHorizontal="true"
+        android:layout_marginLeft="30sp"
         android:layout_marginTop="52dp"
+        android:layout_marginRight="30sp"
+        android:layout_marginBottom="20dp"
         android:background="@drawable/rounded_corner"
         android:backgroundTint="@color/green"
         android:fontFamily="sans-serif-condensed"
         android:text="SEE DIET PLANS"
         android:textAlignment="center"
         android:textColor="@color/black"
-        android:textSize="40sp"
+        android:textSize="20sp"
         android:textStyle="bold"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.595"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/textView4"
-        />
+        app:layout_constraintVertical_bias="1.0" />
+
+
 
 </androidx.constraintlayout.widget.ConstraintLayout>

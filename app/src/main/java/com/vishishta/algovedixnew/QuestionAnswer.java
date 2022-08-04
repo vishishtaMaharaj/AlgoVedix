@@ -4,20 +4,20 @@ public class QuestionAnswer {
 
     public static String question[] = {
             "Q1 What is your Body Frame",
-            "Q2 How to Walk and Talk",
-            "Q3 What is Weather Reaction",
-            "Q4 What is Sweating",
-            "Q5 How is the appetite",
-            "Q6 How is the Skin",
-            "Q7 How is the hair",
-            "Q8 How are lips and teeth",
-            "Q9 How are eyes",
+            "Q2 How do you Walk and Talk",
+            "Q3 What is your Weather Reaction",
+            "Q4 How often do you sweat",
+            "Q5 How is your appetite",
+            "Q6 How is your Skin",
+            "Q7 How are your hairs",
+            "Q8 How are your lips and teeth",
+            "Q9 How are your eyes",
             "Q10 What are the general signs ",
-            "Q11 What about memory",
-            "Q12 What about the mind",
+            "Q11 What about your memory",
+            "Q12 What about your mind",
             "Q13 What about mind on actions",
-            "Q14 What about sleep quality",
-            "Q15 What about Emotional nature"
+            "Q14 How is your sleep quality",
+            "Q15 How is your Emotional nature"
     };
 
     public static String choices[][]={

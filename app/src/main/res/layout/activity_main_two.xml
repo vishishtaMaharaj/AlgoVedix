@@ -21,6 +21,7 @@
         app:layout_constraintVertical_bias="0.162"
         app:srcCompat="@drawable/logo_app" />
 
+
     <ImageView
         android:id="@+id/imageView5"
         android:layout_width="200dp"
@@ -59,8 +60,10 @@
         android:id="@+id/taketest"
         android:layout_width="260dp"
         android:layout_height="51dp"
+        android:textStyle="bold"
         android:text="Take Test"
-        android:backgroundTint="@color/green"
+        android:textSize="25sp"
+        android:background="@drawable/rounded_corner"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.496"

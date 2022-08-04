@@ -88,6 +88,7 @@ Proceed to give the test
         android:layout_width="385dp"
         android:layout_height="77dp"
         android:layout_alignParentLeft="true"
+        android:backgroundTint="@color/green"
         android:layout_alignParentTop="true"
         android:layout_centerHorizontal="true"
         android:layout_marginLeft="15dp"
