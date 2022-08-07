@@ -42,9 +42,9 @@ class ResultsPage : AppCompatActivity() {
         progressBar2.max=15
         progressBar3.max=15
 
-        textView1.text = (vaat*100/15).toString()
-        textView2.text= (pitt*100/15).toString()
-        textView3.text= (cough*100/15).toString()
+        textView1.text = (vaat*100/15).toString()+"%"
+        textView2.text= (pitt*100/15).toString()+"%"
+        textView3.text= (cough*100/15).toString()+"%"
 
         rectangle_3.setOnClickListener {
             intent = Intent(this@ResultsPage, DietActivity::class.java)

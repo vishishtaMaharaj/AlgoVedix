@@ -58,7 +58,7 @@ Time to check your progress..."
                     android:layout_width="111dp"
                     android:layout_height="66dp"
                     android:layout_margin="10dp"
-                    android:text="Vedic store unlocked"/>
+                    android:text="Vedic store unlocked" />
 
 
             </LinearLayout>

@@ -26,7 +26,7 @@
         android:layout_height="150dp"
         android:indeterminateOnly="false"
         android:progressDrawable="@drawable/circle"
-        android:rotation="-90"
+        android:rotation="270"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.095"
@@ -138,7 +138,7 @@
         app:layout_constraintHorizontal_bias="0.096"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        android:rotation="-90"/>
+        android:rotation="270"/>
 
     <TextView
         android:id="@+id/textView2"
@@ -160,7 +160,7 @@
         android:layout_height="150dp"
         android:indeterminateOnly="false"
         android:progressDrawable="@drawable/circle"
-        android:rotation="-90"
+        android:rotation="270"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.095"
