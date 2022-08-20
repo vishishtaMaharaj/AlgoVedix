@@ -5,7 +5,7 @@
     android:background="@color/white"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".MainActivity">
+    tools:context=".LoginActivity">
 
     <ImageView
         android:id="@+id/imgLogo"
@@ -15,7 +15,7 @@
         android:layout_marginTop="30dp"
        android:src="@drawable/logo_app"  />
 
-    <EditText
+  <!--  <EditText
         android:id="@+id/etMobNum"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
@@ -27,9 +27,9 @@
         android:inputType="phone"
         android:maxLength="10"
         android:maxLines="1"
-        android:padding="6dp" />
+        android:padding="6dp" /> -->
 
-    <EditText
+    <!--<EditText
         android:id="@+id/etPassword"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
@@ -39,7 +39,41 @@
         android:layout_marginRight="15dp"
         android:hint="Enter Password"
         android:inputType="textPassword"
-        android:padding="6dp" />
+        android:padding="6dp" />-->
+    <com.google.android.material.textfield.TextInputLayout
+        android:id="@+id/etMobNum"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/imgLogo"
+        android:layout_marginLeft="15dp"
+        android:layout_marginTop="20dp"
+        android:layout_marginRight="15dp"
+        android:padding="6dp">
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:inputType="textEmailAddress"
+            android:hint="Enter Email id"/>
+    </com.google.android.material.textfield.TextInputLayout>
+
+    <com.google.android.material.textfield.TextInputLayout
+        android:id="@+id/etPassword"
+        android:layout_below="@id/etMobNum"
+        app:passwordToggleEnabled="true"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="15dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginRight="15dp"
+        android:padding="6dp">
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:inputType="textPassword"
+            android:hint="Enter Password"
+            />
+    </com.google.android.material.textfield.TextInputLayout>
+
 
     <Button
         android:id="@+id/btnLogIn"
@@ -51,7 +85,6 @@
         android:layout_marginRight="30dp"
         android:background="@drawable/rounded_corner"
         android:backgroundTint="#3fff00"
-        android:onClick="login"
         android:padding="6dp"
         android:text="@string/log_in"
         android:textColor="@color/black"
@@ -77,20 +110,21 @@
         android:layout_height="wrap_content"
         android:layout_alignParentBottom="true"
         android:layout_centerHorizontal="true"
-        android:layout_marginBottom="170dp"
+        android:layout_marginBottom="100dp"
         android:padding="6sp"
         android:text="Don't have an account?"
         android:textColor="#FF000000"
         android:textSize="20sp" />
 
     <Button
+        android:id="@+id/btnSignUpOrigional"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_below="@id/txtForgotPass"
-        android:background="@drawable/rounded_corner"
         android:layout_marginLeft="30dp"
-        android:layout_marginTop="160dp"
+        android:layout_marginTop="69dp"
         android:layout_marginRight="30dp"
+        android:background="@drawable/rounded_corner"
         android:backgroundTint="#3fff00"
         android:padding="6dp"
         android:text="SIGN UP"

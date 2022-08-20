@@ -1,0 +1,47 @@
+{
+  "project_info": {
+    "project_number": "430691327347",
+    "project_id": "fir-login-signup-cb586",
+    "storage_bucket": "fir-login-signup-cb586.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:430691327347:android:537252e5f35ab184ac7906",
+        "android_client_info": {
+          "package_name": "com.vishishta.algovedixnew"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "430691327347-g1ubmndjkomtn8s6bp7rmm6sn4vteg0u.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.vishishta.algovedixnew",
+            "certificate_hash": "8d09548a6e1102bbb66371081372b4c552946122"
+          }
+        },
+        {
+          "client_id": "430691327347-2edspnecusqsfbp8lrnchk3srqd0tprd.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBI7oNtoqdG_LNRgQVb9Py5yd0-GSSUB4M"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "430691327347-2edspnecusqsfbp8lrnchk3srqd0tprd.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

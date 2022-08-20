@@ -6,7 +6,6 @@ import android.os.Bundle
 import android.widget.Button
 import android.widget.ProgressBar
 import android.widget.TextView
-import com.vishishta.algovedixnew.databinding.ActivityMainBinding
 
 class ResultsPage : AppCompatActivity() {
 
@@ -20,7 +19,7 @@ class ResultsPage : AppCompatActivity() {
 
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
-        setContentView(R.layout.activity_main_three)
+        setContentView(R.layout.results_page)
 
         val vaat =intent.getIntExtra("vaat",0)
         val pitt =intent.getIntExtra("pitt",0)
@@ -47,9 +46,11 @@ class ResultsPage : AppCompatActivity() {
         textView3.text= (cough*100/15).toString()+"%"
 
         rectangle_3.setOnClickListener {
-            intent = Intent(this@ResultsPage, DietActivity::class.java)
+            intent = Intent(this@ResultsPage, MyProfileActivity::class.java)
+            intent.putExtra("Vata", vaat)
+            intent.putExtra("Pitt",pitt)
+            intent.putExtra("cough",cough)
             startActivity(intent)
-
         }
 
     }

@@ -1,0 +1,282 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".DashboardFragment">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Name"
+        android:textAlignment="center"
+        android:textSize="20sp"
+        android:layout_marginTop="30dp"
+        android:background="#B3B1B1"
+        android:padding="5dp"
+        android:layout_marginLeft="40dp"
+        android:layout_marginRight="40dp"
+        />
+
+        <HorizontalScrollView
+            android:layout_width="match_parent"
+            android:layout_height="75dp"
+            android:layout_marginTop="90dp"
+            android:layout_marginRight="10dp"
+            android:layout_marginLeft="10dp"
+            >
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                >
+
+            <TextView
+                android:layout_margin="5dp"
+                android:layout_width="60dp"
+                android:layout_height="60dp"
+                android:background="#06BF0F"
+                android:text="MON"
+                android:textStyle="bold"
+                android:textAlignment="center"
+                />
+
+            <TextView
+                android:layout_margin="5dp"
+                android:layout_width="60dp"
+                android:layout_height="60dp"
+                android:background="#06BF0F"
+                android:text="TUE"
+                android:textAlignment="center"/>
+
+            <TextView
+                android:layout_margin="5dp"
+                    android:layout_width="60dp"
+                    android:layout_height="60dp"
+                    android:background="#06BF0F"
+                    android:text="WED"
+                android:textAlignment="center"/>
+
+            <TextView
+                android:layout_margin="5dp"
+                    android:layout_width="60dp"
+                    android:layout_height="60dp"
+                    android:background="#06BF0F"
+                    android:text="THU"
+                android:textAlignment="center"/>
+
+            <TextView
+                android:layout_margin="5dp"
+                    android:layout_width="60dp"
+                    android:layout_height="60dp"
+                    android:background="#06BF0F"
+                    android:text="FRI"
+                android:textAlignment="center"/>
+
+                <TextView
+                    android:layout_width="60dp"
+                    android:layout_height="60dp"
+                    android:layout_margin="5dp"
+                    android:background="#06BF0F"
+                    android:text="SAT"
+                    android:textAlignment="center"/>
+
+                <TextView
+                android:layout_margin="5dp"
+                    android:layout_width="60dp"
+                    android:layout_height="60dp"
+                    android:background="#06BF0F"
+                    android:text="SUN"
+                    android:textAlignment="center"/>
+
+            </LinearLayout>
+        </HorizontalScrollView>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="15dp"
+            android:layout_marginTop="200dp"
+            android:layout_marginRight="15dp"
+            android:background="@drawable/rounded_corner"
+            android:backgroundTint="#06BF0F"
+            android:padding="5dp"
+            android:text="Dosha Chart"
+            android:textAlignment="center"
+            android:textSize="20sp" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:background="#B3B1B1"
+            android:layout_marginTop="250dp"
+            >
+
+            <ProgressBar
+                android:layout_marginTop="20dp"
+                android:id="@+id/vaat_dashboard"
+                style="?android:attr/progressBarStyleHorizontal"
+                android:layout_width="200dp"
+                android:layout_height="60dp"
+                />
+            <ProgressBar
+                android:layout_marginTop="20dp"
+                android:id="@+id/pitt_dashboard"
+                style="?android:attr/progressBarStyleHorizontal"
+                android:layout_width="200dp"
+                android:layout_height="60dp"
+                />
+            <ProgressBar
+                android:layout_marginTop="20dp"
+                android:id="@+id/kapha_dashboard"
+                style="?android:attr/progressBarStyleHorizontal"
+                android:layout_width="200dp"
+                android:layout_height="60dp"
+                />
+
+        </LinearLayout>
+
+        <TextView
+            android:id="@+id/diet_Suggestion_Dashboard"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="15dp"
+            android:layout_marginTop="510dp"
+            android:layout_marginRight="15dp"
+            android:background="@drawable/rounded_corner"
+            android:backgroundTint="#06BF0F"
+            android:padding="5dp"
+            android:text="Today's Diet Suggestions"
+            android:textAlignment="center"
+            android:textSize="20sp" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:background="#B3B1B1"
+        android:layout_below="@id/diet_Suggestion_Dashboard"
+        android:layout_marginTop="10dp"
+        >
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text=" Early Morning: "
+            android:layout_marginLeft="15dp"
+            android:textStyle="bold"
+            android:textSize="25sp"
+            android:background="#0B1A8C"
+            android:textColor="@color/white"
+            android:layout_marginTop="15dp"
+            />
+
+        <TextView
+            android:id="@+id/dietMorning"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Early morning Diet"
+            android:textSize="20sp"
+            android:layout_marginLeft="15dp"
+            />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text=" Breakfast: "
+            android:layout_marginLeft="15dp"
+            android:textStyle="bold"
+            android:textSize="25sp"
+            android:background="#0B1A8C"
+            android:textColor="@color/white"
+            android:layout_marginTop="15dp"
+            />
+
+        <TextView
+            android:id="@+id/dietBreakfast"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Breakfast Diet."
+            android:textSize="20sp"
+            android:layout_marginLeft="15dp"
+            />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="15dp"
+            android:text=" Lunch: "
+            android:textStyle="bold"
+            android:textSize="25sp"
+            android:background="#0B1A8C"
+            android:textColor="@color/white"
+            android:layout_marginTop="15dp"
+            />
+
+        <TextView
+            android:id="@+id/dietLunch"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Lunch Diet."
+            android:textSize="20sp"
+            android:layout_marginLeft="15dp"
+            />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text=" Snacks: "
+            android:layout_marginLeft="15dp"
+            android:textStyle="bold"
+            android:textSize="25sp"
+            android:background="#0B1A8C"
+            android:textColor="@color/white"
+            android:layout_marginTop="15dp"
+            />
+
+        <TextView
+            android:id="@+id/dietSnacks"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Snacks Diet."
+            android:layout_marginLeft="15dp"
+            android:textSize="20sp"
+            />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text=" Dinner: "
+            android:layout_marginLeft="15dp"
+            android:textStyle="bold"
+            android:textSize="25sp"
+            android:background="#0B1A8C"
+            android:textColor="@color/white"
+            android:layout_marginTop="15dp"
+            />
+
+        <TextView
+            android:id="@+id/dietDinner"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Dinner Diet.\n\n"
+            android:layout_marginLeft="15dp"
+            android:textSize="20sp"
+            />
+
+    </LinearLayout>
+
+    </RelativeLayout>
+
+    </ScrollView>
+
+</FrameLayout>
